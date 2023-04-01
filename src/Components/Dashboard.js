@@ -332,7 +332,7 @@ function Dashboard() {
                                     <li className="nav-item dropdown no-arrow">
                                         <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                            <span className="mr-2 d-none d-lg-inline text-gray-600 small">Vishnu B</span>
                                             <img className="img-profile rounded-circle"
                                                 src="img/undraw_profile.svg" />
                                         </a>
@@ -369,7 +369,7 @@ function Dashboard() {
 
                                 {/*  <!-- Page Heading --> */}
                                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                                    <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
+                                    <h1 className="h3 mb-0 text-gray-800">Vishnu Dashboard</h1>
                                     <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                         className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                                 </div>
