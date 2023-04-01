@@ -37,11 +37,8 @@ function Dashboard() {
                             <div className="sidebar-brand-icon rotate-n-15">
                                 <i className="fas fa-laugh-wink"></i>
                             </div>
-                            <div className="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
-                            <div className="text-center d-none d-md-inline">
-                            <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
-                        </div>
-                        </a>
+                            <div className="sidebar-brand-text mx-3">VISHNU'S DASHBOARD</div>
+                            </a>
 
                         {/*   <!-- Divider --> */}
                         <hr className="sidebar-divider my-0" />
@@ -142,10 +139,10 @@ function Dashboard() {
                         {/* <!-- Divider --> */}
                         <hr className="sidebar-divider d-none d-md-block" />
 
-                        {/*   <!-- Sidebar Toggler (Sidebar) --> */}
-                      {/*   <div className="text-center d-none d-md-inline">
+                          {/* <!-- Sidebar Toggler (Sidebar) --> */}
+                         <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
-                        </div> */}
+                        </div> 
 
                         {/*  <!-- Sidebar Message --> */}
                         <div className="sidebar-card d-none d-lg-flex">
@@ -430,7 +427,7 @@ function Dashboard() {
                                                             </div>
                                                             <div className="col">
                                                                 <div className="progress progress-sm mr-2">
-                                                                    <div className="progress-bar bg-info a1" role="progressbar"
+                                                                    <div className="progress-bar bg-info progressbar-1" role="progressbar"
                                                                     ></div>
                                                                 </div>
                                                             </div>
@@ -556,27 +553,27 @@ function Dashboard() {
                                                 <h4 className="small font-weight-bold">Server Migration <span
                                                     className="float-right">20%</span></h4>
                                                 <div className="progress mb-4">
-                                                    <div className="progress-bar bg-danger a2" role="progressbar" ></div>
+                                                    <div className="progress-bar bg-danger progressbar-2" role="progressbar" ></div>
                                                 </div>
                                                 <h4 className="small font-weight-bold">Sales Tracking <span
                                                     className="float-right">40%</span></h4>
                                                 <div className="progress mb-4">
-                                                    <div className="progress-bar bg-warning a3" role="progressbar" ></div>
+                                                    <div className="progress-bar bg-warning progressbar-3" role="progressbar" ></div>
                                                 </div>
                                                 <h4 className="small font-weight-bold">Customer Database <span
                                                     className="float-right">60%</span></h4>
                                                 <div className="progress mb-4">
-                                                    <div className="progress-bar a7" role="progressbar"></div>
+                                                    <div className="progress-bar progressbar-7" role="progressbar"></div>
                                                 </div>
                                                 <h4 className="small font-weight-bold">Payout Details <span
                                                     className="float-right">80%</span></h4>
                                                 <div className="progress mb-4">
-                                                    <div className="progress-bar bg-info a4" role="progressbar" ></div>
+                                                    <div className="progress-bar bg-info progressbar-4" role="progressbar" ></div>
                                                 </div>
                                                 <h4 className="small font-weight-bold">Account Setup <span
                                                     className="float-right">Complete!</span></h4>
                                                 <div className="progress">
-                                                    <div className="progress-bar bg-success a5" role="progressbar" ></div>
+                                                    <div className="progress-bar bg-success progressbar-5" role="progressbar" ></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -660,7 +657,7 @@ function Dashboard() {
                                             </div>
                                             <div className="card-body">
                                                 <div className="text-center">
-                                                    <img className="img-fluid px-3 px-sm-4 mt-3 mb-4 a6"
+                                                    <img className="img-fluid px-3 px-sm-4 mt-3 mb-4 progressbar-6"
                                                         src="img/undraw_posting_photo.svg" alt="..." />
                                                 </div>
                                                 <p>Add some quality, svg illustrations to your project courtesy of <a
